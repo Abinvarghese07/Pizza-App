@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.logoC img{
+  display: flex;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 14px;
+}
+nav{
+  background: rgb(67, 107, 145);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  nav a{
+    display: none;
+  }
+  nav a{
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+}
+
+.home{
+  display: flex;
+  background  : cadetblue;
+  justify-content: space-around;
+}
+
+.headerC{
+  font-size: 50px;
+  font-weight: 700;
+  min-width: 100vh;
+
+  
+  line-height: 20px;
+  /* background: rgb(26, 192, 195);   */
+}
+
+.headerC button{
+  padding: 20px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: antiquewhite;
+  font-size: large;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.homeimg{
+  display: flex;
+}
+
+.homeimg img{
+  height: 50vh;
+  width: 40vh;
+  border-radius: 40px;
+  padding: 20px;
+
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  background: rgb(135, 190, 135);
+}
+
+.footc svg{
+  display: flex;
+  font-weight: 900;
+  font-size: larger;
+
+  
+}
+
+
+.menucard img{
+  /* display: flex; */
+  height: 30vh;
+  width: 30vh;
+
+}
+.menucard{
+  min-width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 20px;
+
+   
+}
+
+.menuItems img{
+  border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.menuItems  :hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.menuItems button{
+  padding: 20px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.formBody{
+  /* background: cadetblue; */
+  display: flex;
+  justify-content: center;
+  /* height: 400px; */
+}
+
+.formC {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  align-items: center;
+
+
+}
+
+.formC input{
+  padding: 20px;
+  margin: 10px;
+  width: 20rem;
+  border: none;
+  background: bisque;
+  border-radius: 30px;
+  font-size: 17px;
+}
+
+.formC label{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.formC button{
+  padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 700;
+  }
